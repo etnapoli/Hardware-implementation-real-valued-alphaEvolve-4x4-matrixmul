@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: CERN-OHL-NC-2.0
 // Author: Ettore Napoli
 // Affiliation: University of Salerno
-// August 2025
+// September 2025
 // Description: Naive algorithm for real-valued matrix multiplication
 `timescale 1ns / 1ps
 

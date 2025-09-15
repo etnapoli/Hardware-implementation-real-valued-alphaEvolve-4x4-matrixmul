@@ -1,5 +1,5 @@
 % Author: Ettore Napoli, University of Salerno
-% Date:   2025-08
+% Date:   2025-09
 %
 % matlab script that tests the LRP matrix multiplication algorithm
 %

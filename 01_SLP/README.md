@@ -1,32 +1,32 @@
-# Matlab Version of the AlphaEvolve Algorithm for 4x4 real-Valued Matrix Multiplication proposed in [1] 
+# Matlab implementation of the Straight Line Program of the AlphaEvolve Algorithm for 4x4 real-Valued Matrix Multiplication proposed in [1] 
 
-This directory contains the matlab implementation of the AlphaEvolve algorithm as described in the paper and the github repo  **[1], [2]**.  
+This directory contains the matlab implementation of SLP reported in **[1], [2]**.  
 
 ## Overview
 
 The implemented algorithm performs 4x4 real-valued matrix multiplication using a modified version of the algorithm proposed in **[3]** and **[4]**.  
-The matlab code implements the algorithm and provides a test script.
+The matlab code implements the SLP algorithm and provides a test script.
 
 ## Contents
 
-- `LRP_matrices.m`  
-  The L, R, and P matrices taken from **[1]** and **[2]**.
+- `rational_L.m`,`rational_R.m`, `rational_P.m`  
+  The matlab implementation of the transformations implemented by the L, Rl, and P, matrices.
   
-- `matmul_LRP.m`  
-  The matlab function that implements the LRP matrix multiplication.
+- `matmul_LRP_SLP.m`  
+  The matlab function that implements the SLP for the matrix multiplication.
 
-- `test_LRP_mult.m`  
+- `test_LRP_SLP.m`  
   The matlab script that tests the algorithm feeding random inputs.
 
 - `README.md` — this file.  
 
 ## Running in matlab
 - **Modify the script:**  
-  Set the number of random test in `test_LRP_mult.m` and comment the appropriate lines to choose between integer or real input values.
+  Set the number of random test in `test_LRP_SLP.m` and comment the appropriate lines to choose between integer or real input values.
 
 - **Run the script**  
-  At the matlab command prompt, while being the in directory where `LRP_matrices.m` , `matmul_LRP.m`, and `test_LRP_mult.m` files are located run:
-  test_LRP_mult
+  At the matlab command prompt, while being the in directory where `rational_L`, `rational_R`, `rational_P`,  `matmul_LRP_SLP.m` and `test_LRP_SLP.m`  files are located run:
+  test_LRP_SLP
 
 
 ## References

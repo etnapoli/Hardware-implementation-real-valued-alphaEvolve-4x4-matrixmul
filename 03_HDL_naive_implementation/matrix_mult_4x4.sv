@@ -1,7 +1,7 @@
 // SPDX-License-Identifier: CERN-OHL-NC-2.0
 // Author: Ettore Napoli
 // Affiliation: University of Salerno
-// August 2025
+// September 2025
 // Description: Naive algorithm for real-valued matrix multiplication
 module matrix_mult_4x4 #(parameter w = 8)(
     input  signed [w-1:0] A [0:3][0:3],

@@ -1,15 +1,15 @@
 % LRP_matrices.m
 % Defines the L, R, and P matrices for the 4x4 matrix multiplication algorithm
 %
-% LRP matrices are taken from the github repo:
-% [1] J.-G. Dumas, B. Grenet, C. Pernet, and A. Sedoglavic, 
-% “Plinopt: A collection of C++ routines handling linear & bilinear programs,” 
-%  https://github.com/jgdumas/plinopt, Jan. 2024.
-%
-% that refers to the paper: 
-% [2] J.-G. Dumas, C. Pernet, and A. Sedoglavic, 
+% LRP matrices are taken from the paper:
+% [1] J.-G. Dumas, C. Pernet, and A. Sedoglavic, 
 % “A non-commutative algorithm for multiplying 4×4 matrices using 
 % 48 non-complex multiplications,” arXiv preprint arXiv:2506.13242, June 16 2025.
+%
+% and from the github repo:
+% [2] J.-G. Dumas, B. Grenet, C. Pernet, and A. Sedoglavic, 
+% “Plinopt: A collection of C++ routines handling linear & bilinear programs,” 
+%  https://github.com/jgdumas/plinopt, Jan. 2024.
 %
 
 

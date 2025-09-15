@@ -1,18 +1,43 @@
+% Author: Ettore Napoli, University of Salerno
+% Date:   2025-09
+%
 % SLP implementation of the transformation given by the R matrix.
+% -------------------------------------------------------
 %
-% LRP matrices and SLP implementation are taken from the github repo:
-% [1] J.-G. Dumas, B. Grenet, C. Pernet, and A. Sedoglavic, 
-% “Plinopt: A collection of C++ routines handling linear & bilinear programs,” 
-%  https://github.com/jgdumas/plinopt, Jan. 2024.
-%
-% that refers to the paper: 
-% [2] J.-G. Dumas, C. Pernet, and A. Sedoglavic, 
+% LRP matrices and SLP implementation are taken from the paper:
+% [1] J.-G. Dumas, C. Pernet, and A. Sedoglavic, 
 % “A non-commutative algorithm for multiplying 4×4 matrices using 
 % 48 non-complex multiplications,” arXiv preprint arXiv:2506.13242, June 16 2025.
 %
+% and from the github repo:
+% [2] J.-G. Dumas, B. Grenet, C. Pernet, and A. Sedoglavic, 
+% “Plinopt: A collection of C++ routines handling linear & bilinear programs,” 
+%  https://github.com/jgdumas/plinopt, Jan. 2024.
+% -------------------------------------------------------------------------
+% License:
+% This code is released under the MIT License.
+% 
+% Permission is hereby granted, free of charge, to any person obtaining a 
+% copy of this software and associated documentation files (the "Software"), 
+% to deal in the Software without restriction, including without limitation 
+% the rights to use, copy, modify, merge, publish, distribute, sublicense, 
+% and/or sell copies of the Software, and to permit persons to whom the 
+% Software is furnished to do so, subject to the following conditions:
+%
+% The above copyright notice and this permission notice shall be included 
+% in all copies or substantial portions of the Software.
+%
+% THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, 
+% EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF 
+% MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. 
+% IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY 
+% CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, 
+% TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE 
+% SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+% -------------------------------------------------------------------------
 function R=rational_R(B)
 
-% input B is B 4x4 mBtrix 
+% input B is B 4x4 matrix 
 % output is R is a 48x1 vector
 
 % Assign the inputs

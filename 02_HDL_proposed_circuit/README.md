@@ -34,6 +34,7 @@ This folder contains the SystemVerilog source code for the implementation of the
 
 ##  References
 **[1]** J.-G. Dumas, C. Pernet, and A. Sedoglavic, “A non-commutative algorithm for multiplying 4×4 matrices using 48 non-complex multiplications,” arXiv preprint arXiv:2506.13242, June 16 2025.
+
 **[2]** J.-G. Dumas, B. Grenet, C. Pernet, and A. Sedoglavic, 
  “Plinopt: A collection of C++ routines handling linear & bilinear programs,” 
   https://github.com/jgdumas/plinopt, Jan. 2024.

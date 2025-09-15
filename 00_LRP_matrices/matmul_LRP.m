@@ -1,10 +1,10 @@
 % Author: Ettore Napoli, University of Salerno
-% Date:   2025-08
+% Date:   2025-09
 %
 % function that implements LRP multiplication
 % Test real valued alphaevolve algorithm on random matrices
 % A,B     : input 4x4 real-valued matrices.
-% L.R.P : The L.R. and P matrices that define the algorithm
+% L,R,P : The L,R, and P matrices that define the algorithm.
 %
 % -------------------------------------------------------------------------
 % License:
