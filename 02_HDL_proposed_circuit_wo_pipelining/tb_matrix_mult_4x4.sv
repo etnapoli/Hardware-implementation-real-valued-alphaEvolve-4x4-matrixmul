@@ -2,7 +2,7 @@
 // Author: Ettore Napoli
 // Affiliation: University of Salerno
 // September 2025
-// Description: Naive algorithm for real-valued matrix multiplication
+// Description: Testbench module. Naive algorithm for real-valued matrix multiplication
 `timescale 1ns / 1ps
 
 module tb_matrix_mult_4x4();

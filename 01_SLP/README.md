@@ -41,6 +41,10 @@ The matlab code implements the SLP algorithm and provides a test script.
 
 **[4]** Google DeepMind, “AlphaEvolve: Mathematical results,” 2025. [Online]. Available: https://colab.research.google.com/github/google-deepmind/alphaevolve_results/blob/master/mathematical_results.ipynb  
 
+**[5]** Napoli E. *VLSI Implementation of AlphaEvolve Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication* 2026 IEEE 17th Latin American Symposium on Circuits & Systems (LASCAS), Arequipa, Peru. February 24-27 2026.
+
+**[6]** Napoli E. *AlphaEvolve-Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication: 28 nm Implementation and Comparison with Strassen*. in IEEE Open Journal of Circuits and Systems, vol. XX, pp. xx-xx, 2026, doi: TBD.
+
 ## License
 
 This code is released under the **MIT License**. See the `LICENSE` file for details.  

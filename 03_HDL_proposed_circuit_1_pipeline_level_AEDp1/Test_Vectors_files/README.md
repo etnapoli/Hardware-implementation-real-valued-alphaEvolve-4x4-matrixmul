@@ -1,19 +1,15 @@
-# HDL Directory
+# Test_Vectors_files Directory
 
-This folder contains the SystemVerilog source code for the implementation of the AlphaEvolve  algorithm for 4x4 real-valued matrix multiplication.
+This folder contains the files with the test vectors for the implementation of the AlphaEvolve  algorithm for 4x4 real-valued matrix multiplication.
+In this directory only one STUB file is provided to reduce the dimension of the repository.
+The complete set of test vectors for all the tested **w** values are in the directory 
+`\02_HDL_proposed_circuit_wo_pipelining\Test_Vectors_files`.
 
 
 ## Contents
-- `matrix_mult_4x4_alphaevolve_dumas.sv` — SystemVerilog description of the proposed implementation of the AlphaEvolve algorithm for 4×4 real-valued matrix multiplication described in **[1]** and **[2]**.  
-  The code is parameterized on **w**, which is the number of bits used for the 2's complement representation of the input matrix elements.  
+- `golden_values_4bit_STUB.txt` — STUB file with test vectors for the **w** value of 4.
 
-- `tb_matrix_mult_4x4.sv` — testbench for simulation.  
-  Tests have been run for **w** values of 4, 8, 16, 24, 32, 48, 53, and 64.  
-  Please note that the provided testbench expects to find the test vector files **two directories above its location** (`../../`).  
-  If this is not the case, correct line 50 of the testbench accordingly.     
-
-- `Test_Vectors_files/` — directory containing the test vector files for the circuit.  
-  Five files are provided, corresponding to different input bit-widths:  
+In the directory containing the complete set of files nine test vectorfiles are provided corresponding to different input bit-widths **w**. 
   - `golden_values_04bit_ver_3019_test_vectors.txt` — 4-bit input elements  
   - `golden_values_08bit_ver_3035_test_vectors.txt` — 8-bit input elements  
   - `golden_values_16bit_ver_3067_test_vectors.txt` — 16-bit input elements  
@@ -22,6 +18,7 @@ This folder contains the SystemVerilog source code for the implementation of the
   - `golden_values_48bit_ver_3195_test_vectors.txt` — 48-bit input elements  
   - `golden_values_53bit_ver_3215_test_vectors.txt` — 53-bit input elements  
   - `golden_values_64bit_ver_3259_test_vectors.txt` — 64-bit input elements  
+  - `golden_values_128bit_ver_3515_test_vectors.txt` — 128-bit input elements  
 
 - `README.md` — this file.  
 

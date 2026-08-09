@@ -1,6 +1,6 @@
 # Matlab Version of the AlphaEvolve Algorithm for 4x4 real-Valued Matrix Multiplication proposed in [1] 
 
-This directory contains the matlab implementation of the AlphaEvolve algorithm as described in the paper and the github repo  **[1], [2]**.  
+This directory contains the matlab implementation of the AlphaEvolve algorithm as described in the paper and in the github repo  **[1], [2]**.  
 
 ## Overview
 
@@ -40,6 +40,11 @@ The matlab code implements the algorithm and provides a test script.
 **[3]** A. Novikov, N. Vũ, M. Eisenberger, E. Dupont, P.-S. Huang, A. Z. Wagner, S. Shirobokov, B. Kozlovskii, F. J. R. Ruiz, A. Mehrabian, M. P. Kumar, A. See, S. Chaudhuri, G. Holland, A. Davies, S. Nowozin, P. Kohli, and M. Balog, “AlphaEvolve: A coding agent for scientific and algorithmic discovery,” 2025. [Online]. Available: https://arxiv.org/abs/2506.13131  
 
 **[4]** Google DeepMind, “AlphaEvolve: Mathematical results,” 2025. [Online]. Available: https://colab.research.google.com/github/google-deepmind/alphaevolve_results/blob/master/mathematical_results.ipynb  
+
+**[5]** Napoli E. *VLSI Implementation of AlphaEvolve Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication* 2026 IEEE 17th Latin American Symposium on Circuits & Systems (LASCAS), Arequipa, Peru. February 24-27 2026.
+
+**[6]** Napoli E. *AlphaEvolve-Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication: 28 nm Implementation and Comparison with Strassen*. in IEEE Open Journal of Circuits and Systems, vol. XX, pp. xx-xx, 2026, doi: TBD.
+
 
 ## License
 
