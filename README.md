@@ -60,6 +60,6 @@ If you use this repository in your work, please cite it as:
 
 **[4]** Google DeepMind, “AlphaEvolve: Mathematical results,” 2025. [Online]. Available: https://colab.research.google.com/github/google-deepmind/alphaevolve_results/blob/master/mathematical_results.ipynb 
 
-**[5]** Napoli E. *VLSI Implementation of AlphaEvolve Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication* 2026 IEEE 17th Latin American Symposium on Circuits & Systems (LASCAS), Arequipa, Peru. February 24-27 2026.
+**[5]** Napoli E. *VLSI Implementation of AlphaEvolve Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication* 2026 IEEE 17th Latin American Symposium on Circuits & Systems (LASCAS), Arequipa, Peru, February 24-27 2026, pp. 1-4, doi: 10.1109/LASCAS67804.2026.11457084.
 
-**[6]** Napoli E. *AlphaEvolve-Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication: 28 nm Implementation and Comparison with Strassen*. in IEEE Open Journal of Circuits and Systems, vol. XX, pp. xx-xx, 2026, doi: TBD.
+**[6]** Napoli E. *AlphaEvolve-Based Rank-48 Algorithm for 4×4 Real-Valued Matrix Multiplication: 28 nm Implementation and Comparison with Strassen*. in IEEE Open Journal of Circuits and Systems, vol. XX, pp. xx-xx, 2026, doi: 10.1109/OJCAS.2026.3727769.
